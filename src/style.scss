@@ -173,13 +173,14 @@ footer {
     }
 }
 
-$cardwidth: clamp(400px, 45vw, 900px);
+$cardwidth: clamp(390px, 43vw, 900px);
 
 .menu-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax($cardwidth, 1fr));
     gap: calc(0.4rem + 1vw);
     margin-bottom: 10rem;
+    padding-right: 4rem;
 }
 
 .menu-item {
@@ -261,7 +262,7 @@ $cardwidth: clamp(400px, 45vw, 900px);
     }
 }
 
-@media (max-width: 813px) {
+@media (max-width: 858px) {
     .menu-item {
         width: 90vw;
     }
